@@ -4,6 +4,7 @@
   color: white;
 }
 
+/* Important hyperlink color, inside banner code **/
 h1 {
   font-family: helvetica;
   font-size: 70px;
@@ -11,7 +12,14 @@ h1 {
   color: white
 }
 
-.home {
+ul {
+  font-family: helvetica;
+  font-size: 18px;
+  color: white;
+  list-style-type: none;
+}
+
+.list a {
   font-family: helvetica;
   font-size: 18px;
   color: white;
@@ -50,9 +58,15 @@ h4 {
   text-align: center;
 }
 
-.copyright {
+.footer {
   font-family: helvetica;
   font-size: 11px;
   color: white;
   background-color: dimgray;
+}
+
+.footer a {
+  font-family: helvetica;
+  font-size: 11px;
+  color: white;
 }
